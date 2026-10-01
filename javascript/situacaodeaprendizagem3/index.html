@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pesquisa de Aviões</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="titulo">Pesquisa de Aviões</h1>
+        <h4 class="">Escolha um código ICAO:</h4>
+
+        <div id="informacoes">
+            <select id="icaoSelect">
+                <option value="">---</option>
+                <option value="A7E8BF">A7E8BF</option>
+                <option value="485E94">485E94</option>
+                <option value="405455">405455</option>
+                <option value="3C675A">3C675A</option>
+                <option value="0D05D9">0D05D9</option>
+                <option value="3E1E6B">3E1E6B</option>
+                <option value="A56C9F">A56C9F</option>
+                <option value="E493E8">E493E8</option>
+                <option value="43C174">43C174</option>
+                <option value="394A6E">394A6E</option>
+                <option value="AE61FF">AE61FF</option>
+                <option value="ADFEB7">ADFEB7</option>
+                <option value="AE0014">AE0014</option>
+                <option value="AE6961">AE6961</option>
+                <option value="AE220F">AE220F</option>
+                <option value="AE54CE">AE54CE</option>
+                <option value="43C924">43C924</option>
+                <option value="E490D4">E490D4</option>
+                <option value="E482C3">E482C3</option>
+                <option value="AE58B4">AE58B4</option>
+                <option value="AE148E">AE148E</option>
+                <option value="43C91A">43C91A</option>
+                <option value="A45BE6">A45BE6</option>
+                <option value="407C0A">407C0A</option>
+                <option value="4D21DF">4D21DF</option>
+                <option value="A29885">A29885</option>
+                <option value="50801C">50801C</option>
+                <option value="A001F1">A001F1</option>
+                <option value="494103">494103</option>
+                <option value="3C65A7">3C65A7</option>
+                <option value="A001F2">A001F2</option>
+            </select>
+            <input type="hidden" id="icaoInput" placeholder="Selecione abaixo o código ICAO" disabled style="width: 200px;">
+            <br>
+            <button id="buscar">Pesquisar</button><br>
+
+            <div id="resultado"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

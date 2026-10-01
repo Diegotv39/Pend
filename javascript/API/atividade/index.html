@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localização e Câmera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Uma página para registrar a localização do usuário com precisão e capturar imagens pela câmera para check-ins e oque o funcionario está fazendo. -->
+
+<body>
+
+    <main class="container">
+
+        <h1>Informações do dispositivo</h1>
+
+        <section class="location-card">
+
+            <div class="info">
+                <span>Latitude</span>
+                <strong id="latitude">Obtendo...</strong>
+            </div>
+
+            <div class="info">
+                <span>Longitude</span>
+                <strong id="longitude">Obtendo...</strong>
+            </div>
+
+            <div class="info">
+                <span>Precisão</span>
+                <strong id="precisao">Obtendo...</strong>
+            </div>
+
+        </section>
+
+        <section class="camera-container">
+            <h2>Câmera</h2>
+
+            <video id="camera" autoplay style="display: width 200px;"></video>
+            <canvas id="canvas" style="display: none;"></canvas>
+            <button id="botao">Tirar</button>
+            <img id="foto">
+            <p id="camera-status">Solicitando acesso à câmera...</p>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
