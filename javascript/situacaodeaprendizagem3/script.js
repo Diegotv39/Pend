@@ -1,7 +1,6 @@
 const inputICAO = document.getElementById("icaoInput");
 const botao = document.getElementById("buscar");
 const resultado = document.getElementById("resultado");
-
 const icaoSelect = document.getElementById("icaoSelect");
 
 icaoSelect.addEventListener("change", function() {
